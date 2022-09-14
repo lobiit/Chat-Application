@@ -27,4 +27,30 @@
         tools:layout_editor_absoluteX="34dp"
         tools:layout_editor_absoluteY="351dp" />
 
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_password"
+        android:layout_centerHorizontal="True"
+        android:text="Log In"
+        android:background="@drawable/btn_background"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="401dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="True"
+        android:background="@drawable/btn_background"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="464dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
